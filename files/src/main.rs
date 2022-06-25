@@ -9,8 +9,8 @@ fn main() {
     // --snip--
 
     let user1 = User {
-        email: String::from("someone@dwexample.com"),
-        username: String::from("someusername123"),
+        email: String::from(".com"),
+        username: String::from("John Doe"),
         active: true,
         sign_in_count: 1,
     };
