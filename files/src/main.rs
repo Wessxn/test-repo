@@ -1,25 +1,19 @@
-mod::data_structures; 
-mod::primitive_types;
+mod config;
+mod routes;
+mod models;
+mod collections;
 
-fn main(){
-  let mut character = CharacterMovement::Forward; 
-  movement(character);
 
-  character = CharacterMovement::Backward;
-  movement(character);
 
-  character = CharacterMovement::Left;
-  movement(character);
+fn main() {
+    let v = vec![1,2,3];
 
-  character = CharacterMovement::Right;
-  movement(character);
 
-  let age = 18;
-  let place_of_birth = "Japan".to_string();
-  let person1 = create_person(age, place_of_birth); 
-  let color: FavouriteColor = FavouriteColor(255, 0, 0);
-
-  println!("{}", person1.name);
-  println!("{0}'s favourite color is {:?}", person1.name, color);
-  
+    println!("Printed from the main file!");
+    config::foo();
+    routes::health_routes::bar();
+    routes::user_route::print_user_route();
+    models::user_model::print_user_model(); 
+    collections::vectors::third_element(&v);
+    collections::hashmap::print_a_hashmap();
 }

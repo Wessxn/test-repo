@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-/Users/Cardo/Desktop/Rust/test-repo/files/target/debug/files: /Users/Cardo/Desktop/Rust/test-repo/files/src/main.rs /Users/Cardo/Desktop/Rust/test-repo/files/src/primitive_types.rs
-=======
-/Users/Cardo/test-repo/files/target/debug/files: /Users/Cardo/test-repo/files/src/main.rs
->>>>>>> 80f4a65957d25c6c883018d091776a64f91ddf8e
+/Users/Cardo/Desktop/Rust/test-repo/files/target/debug/files: /Users/Cardo/Desktop/Rust/test-repo/files/src/collections/hashmap.rs /Users/Cardo/Desktop/Rust/test-repo/files/src/collections/mod.rs /Users/Cardo/Desktop/Rust/test-repo/files/src/collections/vectors.rs /Users/Cardo/Desktop/Rust/test-repo/files/src/config.rs /Users/Cardo/Desktop/Rust/test-repo/files/src/main.rs /Users/Cardo/Desktop/Rust/test-repo/files/src/models/mod.rs /Users/Cardo/Desktop/Rust/test-repo/files/src/models/user_model.rs /Users/Cardo/Desktop/Rust/test-repo/files/src/routes/health_routes.rs /Users/Cardo/Desktop/Rust/test-repo/files/src/routes/mod.rs /Users/Cardo/Desktop/Rust/test-repo/files/src/routes/user_route.rs
